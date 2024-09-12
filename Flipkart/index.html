@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="my.css">
+    <link rel="stylesheet" href="log&sign.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="option.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ 
+</head>
+<body>
+    <br>
+    <header>
+
+        <nav class="navbar">
+
+        
+            <input type="checkbox"  id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>        
+            
+            <a href="#" class="logo">
+                <img src="logo.png" alt="">
+            </a>
+
+            <div class="search">
+                <input type="search" name="" id="" placeholder="Search">
+            </div>
+            <ul class="links">
+                <li > <span class="fa-solid fa-user" ></span><h5 class="login-btn">Login</h5></li>
+                <li><a href="#"> <span  class="fa-solid fa-cart-shopping"></span> Cart</a></li>
+                <li><a href=""> <span class="fa-solid fa-shop"></span> Become a Seller</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="blur-bg-overlay"></div>
+    <div class="form-popup">
+        <span class="close-btn fa fa-close"></span>
+
+        <div class="form-box login">
+            <div class="form-details">
+                <h2>Welcome Back</h2>
+                <p>Pleace login in using your personal information to stay connect with us</p>
+            </div>
+            <div class="form-content">
+                <h2>LOGIN</h2>
+                <form action="#">
+
+                    <div class="input-feild">
+                        <input type="text" placeholder="Email" required>
+                    </div>
+
+                    <div class="input-feild">
+                        <input type="Password" placeholder="Password" required>
+                    </div>
+                    <a href="" class="forgot-pass">Forgot password ?</a>
+                    <button type="submit">Log in</button>    
+                </form>
+
+                <div class="bottom-link" id="log">
+                    Don't have an account ?
+                    <a href="#">Signup</a>
+                </div>
+            </div>
+        </div>
+
+          
+        <div class="form-box signup">
+            <div class="form-content">
+                <h2>SIGN UP</h2>
+                <form action="#">
+
+                    <div class="input-feild">
+                        <input type="text" placeholder="Email" required>
+                    </div>
+
+                    <div class="input-feild">
+                        <input type="Password" placeholder="Password" required>
+                    </div>
+                    
+                    <div class="input-feild">
+                        <input type="text" placeholder="Confirm password" required>
+                    </div>
+                    
+                    
+                    <div class="policy-text">
+                        <input type="checkbox"  id="policy">
+                        <label for="policy">
+                            I agree the 
+                            <a href="#">Terms & Conditions</a>
+                        </label>
+                   </div>
+                    <button type="submit">Sign up</button>   
+                </form>
+                    <div class="bottom-link" id="sign">
+                        Already have an account ?
+                        <a href="#">Login</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="category">
+        <div class="cate">
+        <ul >
+            <li> <img src="images/grocery.png" alt=""><p>Grocery</p></li>
+            <li><img src="images/mobile.png" alt=""><p>Mobiles</p></li>
+            <li><img src="images/app.png" alt=""><p>Home Appliances</p></li>
+            <li><img src="images/home.png" alt=""><p>Home & Furniture</p></li>
+            <li><img src="images/toy.png" alt=""><p>Beauty Toys & More</p></li>
+            <li><img src="images/fashion.png" alt=""> <p>Fashion</p></li>
+            <li><img src="images/travel.png" alt=""><p>Travel</p></li>
+            <li><img src="images/elect.png" alt=""><p>Electronics</p></li>
+        </ul>
+     </div>
+    </div>
+
+    <div class="offer">
+    <img src="images/offer.png" alt="">
+    </div>
+
+    <div class="offer" id="bg">
+        <img src="images/bigsale3.png" alt="">
+    </div>
+
+    <br>
+    <div class="mobile-category">
+        <div class="mc">
+            <br>
+
+            <div class="mobile-category-head">
+                <h3>Best of Electronics</h3>
+                <br>
+            </div>
+
+            <div class="box">
+                   <ul>
+                    <li>
+                        <img src="images2/tws-removebg-preview.png" alt="">
+                        <p>Best TWS</p>
+                        <h3>Shop More</h3>
+                    </li>
+                    <li>
+                        <img src="images2/speaker-removebg-preview.png" alt="">
+                        <p>Best Speakers</p>
+                        <h3>Shop More</h3>
+                    </li> 
+                    <li>
+                        <img src="images2/laptop-removebg-preview.png" alt="">
+                        <p>Best Laptops</p>
+                        <h3>Shop More</h3>
+                    </li>
+                    <li>
+                        <img src="images2/monitor-removebg-preview.png" alt="">
+                        <p>Best Monitors</p>
+                        <h3>Shop More</h3>
+                    </li>
+                    <li>
+                        <img src="images2/printer-removebg-preview.png" alt="">
+                        <p>Best Printers</p>
+                        <h3>Shop More</h3>
+                    </li>
+
+                    <li>
+                        <img src="images2/camera-removebg-preview.png" alt="">
+                        <p>Best Cameras</p>
+                        <h3>Shop More</h3>
+                    </li>
+                    <li>
+                        <img src="images2/watch-removebg-preview.png" alt="">
+                        <p>Best Whatches</p>
+                        <h3>Shop More</h3>
+                    </li>
+
+                    <li>
+                        <img src="images2/xerox.png" alt="">
+                        <p>Best Xerox</p>
+                        <h3>Shop More</h3>
+                    </li>
+                    <li>
+                        <img src="images2/ac.png" alt="">
+                        <p>Best Air Conditionars</p>
+                        <h3>Shop More</h3>
+                    </li>
+                   </ul>
+
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="mobile-category">
+        <div class="mc">
+            <br>
+
+            <div class="mobile-category-head">
+                <h3>Best Toys & Stationaries</h3>
+                <br>
+            </div>
+
+            <div class="box">
+                   <ul>
+                    <li>
+                        <img src="image3/batman-removebg-preview.png" alt="">
+                        <p>Action Toys</p>
+                        <h3>Shop More</h3>
+                    </li>
+                    <li>
+                        <img src="image3/remote_car-removebg-preview.png" alt="">
+                        <p>Advanture Toys</p>
+                        <h3>Shop More</h3>
+                    </li> 
+                    <li>
+                        <img src="image3/superman-removebg-preview.png" alt="">
+                        <p>Best Classic Toys</p>
+                        <h3>Shop More</h3>
+                    </li>
+                    <li>
+                        <img src="image3/teddy-removebg-preview.png" alt="">
+                        <p>Best Soft Toys</p>
+                        <h3>Shop More</h3>
+                    </li>
+                    <li>
+                        <img src="image3/pencils-removebg-preview.png" alt="">
+                        <p>Stationaries</p>
+                        <h3>Shop More</h3>
+                    </li>
+                    <li>
+                        <img src="image3/barby-removebg-preview.png" alt="">
+                        <p>Girls Toys</p>
+                        <h3>Shop More</h3>
+                    </li>
+
+                    <li>
+                        <img src="image3/cycle-removebg-preview.png" alt="">
+                        <p>Cycles</p>
+                        <h3>Shop More</h3>
+                    </li>
+                    <li>
+                        <img src="image3/ben-removebg-preview.png" alt="">
+                        <p>Toys</p>
+                        <h3>Shop More</h3>
+                    </li>
+                    
+                    <li>
+                        <img src="image3/cycle-removebg-preview.png" alt="">
+                        <p>Cycle Toys</p>
+                        <h3>Shop More</h3>
+                    </li>
+                   </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="mobile-category">
+        <div class="mc">
+            <br>
+
+            <div class="mobile-category-head">
+                <h3>Home Appliances</h3>
+                <br>
+            </div>
+
+            <div class="box">
+                   <ul>
+                    <li>
+                        <img src="images4/ac-removebg-preview.png" alt="">
+                        <p>Air Conditionars</p>
+                        <h3>Shop More</h3>
+                    </li>
+                    <li>
+                        <img src="images4/fan-removebg-preview.png" alt="">
+                        <p>Fan</p>
+                        <h3>Shop More</h3>
+                    </li> 
+                    <li>
+                        <img src="images4/fridge-removebg-preview.png" alt="">
+                        <p>Fridge</p>
+                        <h3>Shop More</h3>
+                    </li>
+                    <li>
+                        <img src="images4/gen-removebg-preview.png" alt="">
+                        <p>Genrator</p>
+                        <h3>Shop More</h3>
+                    </li>
+                    <li>
+                        <img src="images4/iorn-removebg-preview.png" alt="">
+                        <p>Iorn Box</p>
+                        <h3>Shop More</h3>
+                    </li>
+                    <li>
+                        <img src="images4/setup-removebg-preview.png" alt="">
+                        <p>Setup box</p>
+                        <h3>Shop More</h3>
+                    </li>
+
+                    <li>
+                        <img src="images4/tv-removebg-preview.png" alt="">
+                        <p>Television </p>
+                        <h3>Shop More</h3>
+                    </li>
+                    <li>
+                        <img src="images4/washing-removebg-preview.png" alt="">
+                        <p>Washing Machine</p>
+                        <h3>Shop More</h3>
+                    </li>
+
+                    <li>
+                        <img src="images4/hotbox-removebg-preview.png" alt="">
+                        <p>Hot Box</p>
+                        <h3>Shop More</h3>
+                    </li>
+                   </ul>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="row">
+            <div class="col">
+                <h4>CONTACT US</h4>
+                <hr>
+                <ul>
+                    <li >
+                        <span class="fa-regular fa-envelope"></span>  rajp37590@gmail.com</li>
+                    <li>
+                        <span class="fa-brands fa-whatsapp"></span>  +91 8072620523
+                    </li>
+                    <li>
+                        <span class="fa-brands fa-instagram"></span>  mr_pjx</li>
+                </ul>
+            </div>
+            <div class="col">
+                <H4>CUSTOMER POLICY</H4>
+                <HR></HR>
+                <ul>
+                    <li>Cancellation & Returns<li>
+                    <li>Trems of use</li>
+                    <li>Security</li>
+                    <li>Sitemap</li>
+                    <li>EPR Compilation</li>
+                 </ul>
+            </div>
+
+            <div class="col">
+                <H4>HELP</H4>
+                <HR></HR>
+                <ul>
+                    
+                    <li>Payments</li>
+                    <li>Shipping</li>
+                    <li>Cancellation & Returns<li>
+                    <li>FAQ</li>
+                    <li>Report infringment</li>
+                 </ul>
+            </div>
+
+            
+            <div class="col">
+                <H4>GROUP COMPANIES</H4>
+                <HR></HR>
+                <ul>
+                    <li>Mynthr</li>
+                    <li>Cleartrip</li>
+                    <li>Shopsy</li>
+                 </ul>
+            </div>
+
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function(){
+        
+            $(".close-btn").click(function(){
+            
+                $(".form-popup").animate({height: 'toggle' ,opacity: '1'});
+                $(".blur-bg-overlay").animate({height: 'toggle' ,opacity: '1'});
+                });
+
+            $(".login-btn").click(function(){
+                
+                $(".blur-bg-overlay").show();
+                $(".form-popup").show();
+            });
+
+            
+            $(".bottom-link a").click(function(){
+                
+                $(".form-popup .login").hide();
+                $(".form-popup .signup").show();
+               
+            });
+     
+            
+            $(".signup .bottom-link a").click(function(){
+                
+                $(".form-popup .login").show();
+                $(".form-popup .signup").hide();;
+
+            
+            });
+       
+            
+        });
+
+    </script>
+</body>
+</html>
