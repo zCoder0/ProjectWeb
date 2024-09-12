@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+    font-family:sans-serif;
+}
+
+body{
+    background-color: rgb(218, 213, 213);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding:  0 30px;
+  background-color: #fff;
+
+  height: 100px;
+
+}
+
+.navbar{
+    
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: space-between;
+
+    font-family:sans-serif;
+}
+
+.navbar .logo img{
+    width: 140px;
+    height: 100px;
+}
+.navbar .search input{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 10px;
+    border-color: aqua;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.navbar .links {
+    display: flex;
+    gap :35px
+}
+
+.navbar .links li a{
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: black;
+}
+.navbar .links span {
+
+    color: #fff;
+}
+.navbar .links .login-btn{
+    display: inline;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 10px;
+    
+}
+
+#check{
+    display: none;
+}
+.checkbtn{
+    cursor: pointer;
+    font-size: 30px;
+    padding: 0 10px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1000px){
+
+    
+    .navbar .search input{
+        width: 400px;
+        margin-right: 10px;
+    }
+    .navbar .links {
+        gap :30px;
+    }
+    
+    .navbar .links li a{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:840px){
+
+    
+    .navbar .search input{
+        width: 300px;
+        margin-right: 10px;
+    }
+    .navbar .links {
+        gap :30px;
+    }
+    
+    .navbar .links li a{
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width:690px){
+    
+    .navbar .search input{
+        width: 250px;
+        margin-right: 50px;
+    }
+    
+    .navbar .links {
+        position: fixed;
+        display: block;
+        background-color:#2f5965;
+        width: 100%;
+        top:92px;
+        left: -690px;
+        height: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        transition: all .2s;
+      
+    }
+    .navbar .links {
+        color: #fff;
+    }
+
+    .navbar .links .login-btn{
+        color: #fff;
+        
+    }
+    .navbar .links li{
+        
+        padding: 30px;
+        outline: none;
+        margin-bottom: 30px;
+
+    }
+    .navbar .links li a{
+        color: #fff;
+        font-size: 20px;
+        
+    }
+    .navbar .links  :hover{
+        background-color:   #3a9fbd;
+        border-radius: 5px;
+    }
+    
+    .navbar .links span{
+        color: #fff;
+        font-size: 20px;
+    }
+   .checkbtn{
+    display: block;
+   }
+
+   
+   #check:checked  ~ .links{
+    left: 0;
+
+ } 
+
+}
